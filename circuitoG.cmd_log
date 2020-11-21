@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan3e -refsym circuitoG {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoG.sch} {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoG.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl circuitoG_drc.vhf -w {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoG.sch} 
+sch2sym -intstyle ise -family spartan3e -refsym circuitoG {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoG.sch} {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoG.sym} 
+sch2sym -intstyle ise -family spartan3e -refsym circuitoG {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoG.sch} {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoG.sym} 

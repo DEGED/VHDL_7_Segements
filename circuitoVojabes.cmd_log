@@ -1,0 +1,53 @@
+sch2sym -intstyle ise -family spartan3e -refsym circuitoVojabes {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.sch} {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.sym} 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "circuitoVojabes.ngc" circuitoVojabes.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o circuitoVojabes_map.ncd circuitoVojabes.ngd circuitoVojabes.pcf 
+par -w -intstyle ise -ol high -t 1 circuitoVojabes_map.ncd circuitoVojabes.ncd circuitoVojabes.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuitoVojabes.twx circuitoVojabes.ncd -o circuitoVojabes.twr circuitoVojabes.pcf 
+bitgen -intstyle ise -f circuitoVojabes.ut circuitoVojabes.ncd 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc circuitoVojabes.ucf -p xc3s500e-fg320-4 "circuitoVojabes.ngc" circuitoVojabes.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o circuitoVojabes_map.ncd circuitoVojabes.ngd circuitoVojabes.pcf 
+par -w -intstyle ise -ol high -t 1 circuitoVojabes_map.ncd circuitoVojabes.ncd circuitoVojabes.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuitoVojabes.twx circuitoVojabes.ncd -o circuitoVojabes.twr circuitoVojabes.pcf -ucf circuitoVojabes.ucf 
+bitgen -intstyle ise -f circuitoVojabes.ut circuitoVojabes.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym circuitoVojabes {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.sch} {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl circuitoVojabes_drc.vhf -w {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.sch} 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc circuitoVojabes.ucf -p xc3s500e-fg320-4 "circuitoVojabes.ngc" circuitoVojabes.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o circuitoVojabes_map.ncd circuitoVojabes.ngd circuitoVojabes.pcf 
+par -w -intstyle ise -ol high -t 1 circuitoVojabes_map.ncd circuitoVojabes.ncd circuitoVojabes.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuitoVojabes.twx circuitoVojabes.ncd -o circuitoVojabes.twr circuitoVojabes.pcf -ucf circuitoVojabes.ucf 
+bitgen -intstyle ise -f circuitoVojabes.ut circuitoVojabes.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc circuitoVojabes.ucf -p xc3s500e-fg320-4 "circuitoVojabes.ngc" circuitoVojabes.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o circuitoVojabes_map.ncd circuitoVojabes.ngd circuitoVojabes.pcf 
+par -w -intstyle ise -ol high -t 1 circuitoVojabes_map.ncd circuitoVojabes.ncd circuitoVojabes.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuitoVojabes.twx circuitoVojabes.ncd -o circuitoVojabes.twr circuitoVojabes.pcf -ucf circuitoVojabes.ucf 
+bitgen -intstyle ise -f circuitoVojabes.ut circuitoVojabes.ncd 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc circuitoVojabes.ucf -p xc3s500e-fg320-4 "circuitoVojabes.ngc" circuitoVojabes.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o circuitoVojabes_map.ncd circuitoVojabes.ngd circuitoVojabes.pcf 
+par -w -intstyle ise -ol high -t 1 circuitoVojabes_map.ncd circuitoVojabes.ncd circuitoVojabes.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuitoVojabes.twx circuitoVojabes.ncd -o circuitoVojabes.twr circuitoVojabes.pcf -ucf circuitoVojabes.ucf 
+bitgen -intstyle ise -f circuitoVojabes.ut circuitoVojabes.ncd 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc circuitoVojabes.ucf -p xc3s500e-fg320-4 "circuitoVojabes.ngc" circuitoVojabes.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o circuitoVojabes_map.ncd circuitoVojabes.ngd circuitoVojabes.pcf 
+par -w -intstyle ise -ol high -t 1 circuitoVojabes_map.ncd circuitoVojabes.ncd circuitoVojabes.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuitoVojabes.twx circuitoVojabes.ncd -o circuitoVojabes.twr circuitoVojabes.pcf -ucf circuitoVojabes.ucf 
+bitgen -intstyle ise -f circuitoVojabes.ut circuitoVojabes.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc circuitoVojabes.ucf -p xc3s500e-fg320-4 "circuitoVojabes.ngc" circuitoVojabes.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o circuitoVojabes_map.ncd circuitoVojabes.ngd circuitoVojabes.pcf 
+par -w -intstyle ise -ol high -t 1 circuitoVojabes_map.ncd circuitoVojabes.ncd circuitoVojabes.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuitoVojabes.twx circuitoVojabes.ncd -o circuitoVojabes.twr circuitoVojabes.pcf -ucf circuitoVojabes.ucf 
+bitgen -intstyle ise -f circuitoVojabes.ut circuitoVojabes.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc circuitoVojabes.ucf -p xc3s500e-fg320-4 "circuitoVojabes.ngc" circuitoVojabes.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o circuitoVojabes_map.ncd circuitoVojabes.ngd circuitoVojabes.pcf 
+par -w -intstyle ise -ol high -t 1 circuitoVojabes_map.ncd circuitoVojabes.ncd circuitoVojabes.pcf 
+bitgen -intstyle ise -f circuitoVojabes.ut circuitoVojabes.ncd 
+xst -intstyle ise -ifn "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.xst" -ofn "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc circuitoVojabes.ucf -p xc3s500e-fg320-4 "circuitoVojabes.ngc" circuitoVojabes.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o circuitoVojabes_map.ncd circuitoVojabes.ngd circuitoVojabes.pcf 
+par -w -intstyle ise -ol high -t 1 circuitoVojabes_map.ncd circuitoVojabes.ncd circuitoVojabes.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml circuitoVojabes.twx circuitoVojabes.ncd -o circuitoVojabes.twr circuitoVojabes.pcf -ucf circuitoVojabes.ucf 
+bitgen -intstyle ise -f circuitoVojabes.ut circuitoVojabes.ncd 

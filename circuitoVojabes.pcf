@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Oct 07 20:14:33 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "FA" LOCATE = SITE "D5" LEVEL 1;
+COMP "FB" LOCATE = SITE "C5" LEVEL 1;
+COMP "FC" LOCATE = SITE "A6" LEVEL 1;
+COMP "FD" LOCATE = SITE "F7" LEVEL 1;
+COMP "FE" LOCATE = SITE "B6" LEVEL 1;
+COMP "FF" LOCATE = SITE "A4" LEVEL 1;
+COMP "FG" LOCATE = SITE "B4" LEVEL 1;
+COMP "X" LOCATE = SITE "N17" LEVEL 1;
+COMP "Y" LOCATE = SITE "H18" LEVEL 1;
+COMP "Z" LOCATE = SITE "L14" LEVEL 1;
+SCHEMATIC END;
+

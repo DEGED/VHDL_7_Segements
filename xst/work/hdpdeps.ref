@@ -1,0 +1,119 @@
+V3 55
+FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoA.vhf" 2020/10/07.20:14:15 P.20131013
+EN work/circuitoA 1602119677 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoA.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoA/BEHAVIORAL 1602119678 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoA.vhf" \
+      EN work/circuitoA 1602119677 CP AND2B1 CP OR2
+FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoB.vhf" 2020/10/07.20:14:14 P.20131013
+EN work/circuitoB 1602119679 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoB.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoB/BEHAVIORAL 1602119680 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoB.vhf" \
+      EN work/circuitoB 1602119679 CP AND2
+FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoC.vhf" 2020/10/07.20:14:15 P.20131013
+EN work/circuitoC 1602119681 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoC.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoC/BEHAVIORAL 1602119682 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoC.vhf" \
+      EN work/circuitoC 1602119681 CP AND2B2 CP AND3 CP AND3B2 CP OR3
+FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoD.vhf" 2020/10/07.20:14:15 P.20131013
+EN work/circuitoD 1602119683 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoD.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoD/BEHAVIORAL 1602119684 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoD.vhf" \
+      EN work/circuitoD 1602119683 CP AND2B2 CP AND3 CP OR3
+FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoE.vhf" 2020/10/07.20:14:15 P.20131013
+EN work/circuitoE 1602119685 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoE.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoE/BEHAVIORAL 1602119686 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoE.vhf" \
+      EN work/circuitoE 1602119685 CP AND2 CP AND2B1 CP AND2B2 CP OR4
+FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoF.vhf" 2020/10/07.20:14:15 P.20131013
+EN work/circuitoF 1602119687 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoF.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoF/BEHAVIORAL 1602119688 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoF.vhf" \
+      EN work/circuitoF 1602119687 CP AND2B1 CP OR2B1
+FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoG.vhf" 2020/10/07.20:14:15 P.20131013
+EN work/circuitoG 1602119689 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoG.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoG/BEHAVIORAL 1602119690 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoG.vhf" \
+      EN work/circuitoG 1602119689 CP AND2B2 CP AND2B1 CP OR3
+FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" 2020/10/07.20:14:17 P.20131013
+EN work/circuitoG_MUSER_circuitoVojabes 1602119661 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoG_MUSER_circuitoVojabes/BEHAVIORAL 1602119662 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      EN work/circuitoG_MUSER_circuitoVojabes 1602119661 CP AND2B2 CP AND2B1 CP OR3
+EN work/circuitoF_MUSER_circuitoVojabes 1602119663 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoF_MUSER_circuitoVojabes/BEHAVIORAL 1602119664 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      EN work/circuitoF_MUSER_circuitoVojabes 1602119663 CP AND2B1 CP OR2B1
+EN work/circuitoE_MUSER_circuitoVojabes 1602119665 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoE_MUSER_circuitoVojabes/BEHAVIORAL 1602119666 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      EN work/circuitoE_MUSER_circuitoVojabes 1602119665 CP AND2 CP AND2B1 \
+      CP AND2B2 CP OR4
+EN work/circuitoD_MUSER_circuitoVojabes 1602119667 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoD_MUSER_circuitoVojabes/BEHAVIORAL 1602119668 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      EN work/circuitoD_MUSER_circuitoVojabes 1602119667 CP AND2B2 CP AND3 CP OR3
+EN work/circuitoC_MUSER_circuitoVojabes 1602119669 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoC_MUSER_circuitoVojabes/BEHAVIORAL 1602119670 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      EN work/circuitoC_MUSER_circuitoVojabes 1602119669 CP AND2B2 CP AND3 \
+      CP AND3B2 CP OR3
+EN work/circuitoB_MUSER_circuitoVojabes 1602119671 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoB_MUSER_circuitoVojabes/BEHAVIORAL 1602119672 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      EN work/circuitoB_MUSER_circuitoVojabes 1602119671 CP AND2
+EN work/circuitoA_MUSER_circuitoVojabes 1602119673 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoA_MUSER_circuitoVojabes/BEHAVIORAL 1602119674 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      EN work/circuitoA_MUSER_circuitoVojabes 1602119673 CP AND2B1 CP OR2
+EN work/circuitoVojabes 1602119675 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/circuitoVojabes/BEHAVIORAL 1602119676 \
+      FL "C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoVojabes.vhf" \
+      EN work/circuitoVojabes 1602119675 CP circuitoA_MUSER_circuitoVojabes \
+      CP circuitoB_MUSER_circuitoVojabes CP circuitoC_MUSER_circuitoVojabes \
+      CP circuitoD_MUSER_circuitoVojabes CP circuitoE_MUSER_circuitoVojabes \
+      CP circuitoF_MUSER_circuitoVojabes CP circuitoG_MUSER_circuitoVojabes

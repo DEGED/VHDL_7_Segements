@@ -1,0 +1,2 @@
+sch2sym -intstyle ise -family spartan3e -refsym circuitoC {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoC.sch} {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoC.sym} 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl circuitoC_drc.vhf -w {C:/Users/prestamo/Desktop/Nueva carpeta/vojabes2/circuitoC.sch} 
